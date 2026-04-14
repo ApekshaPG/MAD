@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <!-- Profile Image -->
+
+        <!-- Name -->
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="88dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apeksha_gaikwad"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Tech Computer Science Student"
+            android:textSize="14sp"
+            android:textColor="#777777"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D Y Patil College of Engineering and Technology"
+            android:textSize="13sp"
+            android:textColor="#999999"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- About Me -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_me"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/passionate_developer_with_strong_interest_in_android_development_web_technologies_and_problem_solving"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Skills -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technical Skills"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Java\n• Android Studio\n• HTML CSS\n• SQL\n• JavaScript"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Buttons -->
+
+        <Button
+            android:id="@+id/btnLinkedIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LINKEDIN PROFILE"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
